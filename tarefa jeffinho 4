@@ -1,0 +1,16 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro base = 2
+		inteiro x
+		inteiro resultado = base
+		inteiro expoente = 3
+
+		para(inteiro i = 0; i < expoente; i++){
+
+			resultado = resultado * base
+		}
+		
+			escreva(resultado)
