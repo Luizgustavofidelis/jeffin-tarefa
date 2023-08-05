@@ -1,0 +1,27 @@
+programa
+{
+	inclua biblioteca Util--> u
+	
+	funcao inicio()
+	{
+		inteiro anterior,atual,proximo, limite
+
+		anterior = 0
+		atual = 1
+		escreva("me de um limite para a serie de fibonacci: ")
+		leia(limite)
+		
+		enquanto(atual <= limite){
+			escreva(" ",atual," ")
+
+			proximo = anterior + atual
+			anterior = atual
+			atual = proximo
+
+			
+			
+			
+			
+		}
+	}
+}
