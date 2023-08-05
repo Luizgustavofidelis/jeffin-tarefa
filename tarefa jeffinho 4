@@ -1,16 +1,24 @@
-programa
+rograma
 {
 	
 	funcao inicio()
 	{
-		inteiro base = 2
-		inteiro x
-		inteiro resultado = base
-		inteiro expoente = 3
+		real base
+		real expoente
+		real res
 
-		para(inteiro i = 0; i < expoente; i++){
-
-			resultado = resultado * base
-		}
 		
-			escreva(resultado)
+		escreva("me de uma base: ")
+		leia(base)
+		escreva("me de um expoente: ")
+		leia(expoente)
+res = base
+		para(inteiro i = 1; i < expoente; i++){
+			res = res * base	
+
+			
+		}
+	escreva(res)
+	}
+	
+}
