@@ -1,0 +1,29 @@
+programa
+{
+	inclua biblioteca Util
+ --> u
+	
+	funcao inicio()
+	{
+		inteiro anterior,atual,proximo, limite
+
+		anterior = 0
+		atual = 1
+		limite = 610
+		escreva("serie de fibonnaci até",limite, ": ")
+		
+		
+		enquanto(atual <= limite){
+			escreva(" ",atual," ")
+
+			proximo = anterior + atual
+			anterior = atual
+			atual = proximo
+
+			
+			
+			
+			
+		}
+	}
+}
